@@ -1,17 +1,40 @@
 /*   class --> .classİsmi {}
      id --> #id-bilgisi {}
      
-     */
+*/
 
 
-.text-red{
+
+h1,h2,h3 {
+   color: aliceblue;
+}
+
+.text-red {
    color: red;
 }
 
-.fs-14{
+.fs-14 {
    font-size: 14px;
 }
 
-#first-article{
+#first-article {
    font-size: 40px;
+}
+
+
+/*css selecetor
+iki özellik aynı anda olsun
+*/
+
+.color-blue.fw-bold{
+   color: blue;
+   font-weight:bold ;
+}
+
+ul>li:first-child{
+   color: green;
+}
+
+li:nth-child(2){
+   background-color: red;
 }

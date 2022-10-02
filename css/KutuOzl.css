@@ -1,0 +1,42 @@
+
+body{
+    margin: 0;
+    padding: 0s;
+
+}
+
+
+.clear{
+    clear: both;   /*sağını solunu temizle*/
+}
+
+
+.container{
+    width: 1000px;
+
+}
+
+.left-bar{
+    widows:200px;
+}
+
+.content{
+    width: 800px;
+}
+
+.box{
+    background-color: red;
+    width: 300px;
+    height: 300px;
+    padding: 10px;  /*kutu içindeki yazı 10 pixel içerde başlasın */
+    margin-right: 10px;  /*sayfanın kenarlarından uzaklık sadece margin 4 tarafından da demek margin-top margin-left vs diyebiliriz*/
+    float: left;  /* float kutuların dizilim şeklini belirtiyor left ya da right*/
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.bg-green{
+    background-color: green;
+}
